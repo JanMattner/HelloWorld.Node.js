@@ -9,5 +9,10 @@
   },
   "devDependencies": {
     "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha",
+    "test:server": "mocha --reporter xunit > xunit.xml",
+    "preparePackage": "mkdir build && cp lib build -r && cp package.json build && cp README.md build"
   }
 }
