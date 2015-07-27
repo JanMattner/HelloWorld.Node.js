@@ -1,0 +1,13 @@
+{
+  "name": "HelloWorld.Node.js",
+  "version": "0.1.0",
+  "description": "HelloWorld.Node.js",
+  "main": "lib/app.js",
+  "author": {
+    "name": "Jan.Mattner",
+    "email": ""
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
