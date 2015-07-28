@@ -19,7 +19,7 @@ describe('MyClass', function () {
         });
     });
     describe('#AddToB', function () {
-        it('should add ammount to B but it is broken', function () {
+        it('should add ammount to B', function () {
             var a = 2;
             var b = 4;
             myClass.A = a;
